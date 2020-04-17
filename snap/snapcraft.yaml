@@ -11,6 +11,8 @@ grade: stable
 confinement: strict
 license: MIT
 version: git
+architectures:
+  - build-on: amd64
 
 parts:
   word-cloudinator:
