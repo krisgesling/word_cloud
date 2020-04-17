@@ -5,6 +5,7 @@ description: |
   algorithm has the advantage of filling all available space, being able to use
   arbitrary masks, having a stupid simple algorithm (with an efficient
   implementation) that can be easily modified, and being in Python.
+icon: cloud-icon.png
 
 base: core18
 grade: stable
