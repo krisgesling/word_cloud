@@ -1,4 +1,4 @@
-name: wordcloud_cli
+name: word-cloudinator
 summary: Word cloud generator
 description: |
   A little word cloud generator in Python. Compared to other word clouds, this
@@ -13,10 +13,10 @@ license: MIT
 version: git
 
 parts:
-  wordcloud_cli:
+  word-cloudinator:
     source: .
     plugin: python
 
 apps:
-  wordcloud_cli:
+  word-cloudinator:
     command: wordcloud_cli
